@@ -65,3 +65,5 @@ def planting_advice(country, place, crop):
     result_twi = translation_response.choices[0].message.content
 
     return result, result_twi
+
+###
