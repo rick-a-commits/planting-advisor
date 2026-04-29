@@ -68,6 +68,7 @@ streamlit run planting_advisor.py
 |---|---|
 | `streamlit` | Web app interface |
 | `openai` | GPT API calls for advice and translation |
+| `opencage` | Opencage API calls for geo location |
 | `python-dotenv` | Loads API key from `.env` |
 | `ipython` | Notebook support |
 
@@ -83,7 +84,7 @@ pip install -r requirements.txt
 
 The app makes three sequential API calls:
 
-1. **Geolocation** (`gpt-4o-mini`) — converts the country and place name into coordinates
+1. **Geolocation** (`opencage`) — converts the country and place name into coordinates
 2. **Planting advice** (`gpt-4o`) — uses the coordinates to assess weather and soil compatibility for the crop
 3. **Translation** (`gpt-4o-mini`) — translates the advice into Asanti Twi
 
