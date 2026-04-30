@@ -35,6 +35,7 @@ planting-advisor/
 
 - Python 3.9+
 - An [OpenAI API key](https://platform.openai.com/api-keys)
+- An [OpenCageGeocode API key] (https://opencagedata.com/api)
 
 ### Installation
 
