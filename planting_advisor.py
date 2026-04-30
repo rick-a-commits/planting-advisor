@@ -1,6 +1,6 @@
 import streamlit as st
-from utils2 import get_geo_location
-from utils2 import planting_advice
+from utils import get_geo_location
+from utils import planting_advice
 
 
 countries = [
