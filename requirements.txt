@@ -2,4 +2,5 @@ dotenv==0.9.9
 ipython==9.13.0
 ipython_pygments_lexers==1.1.1
 openai==2.33.0
+opencage==3.3.1
 streamlit==1.57.0
